@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Babylonica' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </script>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+    body{
+      background-repeat: round;
+    }
+    nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: absolute;
+    }
+    .navbar-brand{
+      font-family: 'Charm';
+      color: whitesmoke;
+    }
+    .a.navi{
+      color: white;
+    }
+    .navbar-collapse{
+      justify-content: right;
+      margin-right: 2,5rem;
+    }
+    .nav-link {
+      margin-right: 40px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      color: black;
+    }
+    .nav-link:hover{
+      font-family: 'Courier New', Courier, monospace;
+      border-radius: 10%;
+      opacity: 80%;
+    }
+    .carousel-inner{
+      max-width: fit-content;
+    }
+    .main-content{
+      display: flex;
+      flex-direction: row;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    div.card{
+      margin: 5%;
+    }
+    #myVideo {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      min-height: 100%;
+      z-index: -1;
+    }
+    .first-jumbo{
+      display: flex;
+      flex-direction: row;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding-top: 4.5rem;
+      padding-bottom: 4%;
+    }
+    .jumbo{
+      padding: 10%;
+      color: black;
+    }
+    .jumbotron-fluid{
+      display: flex;
+      flex-direction: row;
+      color: white;
+      padding: 5%;
+    }
+    .car{
+      padding: 0;
+      margin: 5%;
+    }
+    .card{
+      border-radius: 10%;
+      border-style: groove;
+      border-width: 10%;
+      border-color: transparent;
+      background-color: transparent;
+    }
+    .btn-lg{
+      background-color: #FDEEDC;
+      border-color: #FDEEDC;
+      color: black;
+    }
+    .btn-lg:hover{
+      background-color: #6b8181;
+      border-color: #6b8181;
+    }
+    .btn-mre{
+      padding: 3%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .btn-gg{
+      margin-left: 40%;
+      width: 20%;
+    }
+    .btn-gg:hover{
+      background-color: white;
+      border-color: black;
+      color: black;
+    }
+  </style>
+  <title>X-ARTING</title>
+  <link rel="icon" type="image/x-icon" href="asset/Xenz.ico">
+</head>
+<body>
+<div class="body">
+
+<!----------------------- Navbar ----------------------->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar navbar-dark bg-transparent text-white">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#"><img src="asset/arttis1.png" style="width: 30px; height: 30px; margin: 10px; font-family: 'Marck Script', cursive;">X ARTING</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a id="navi" class="nav-link text-white" href="library.html">Gallery</a>
+          <a id="navi" class="nav-link text-white" href="about.html">About</a>
+          <a id="navi" class="nav-link text-white" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <!----------- jumbotron first page ----------->
+  <video autoplay muted loop id="myVideo">
+    <source src="asset/assetbg/vid11.mp4" type="video/mp4">
+  </video>
+<div class="first-jumbo" id="home">
+  <div class="jumbotron jumbo text-white">
+    <h1 class="display-4">Welcome to X ARTING...</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+  </div>
+
+  <!--Second jumbotron-->
+
+  <div class="jumbotron jumbotron-fluid " style="background-color: #7a5a4e;">
+    <div class="container">
+      <h1 class="display-4">Classic ART</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+  </div>
+
+  <!--first content-->
+
+<div style="background-image: url(asset/assetbg/classbg.jpg);">
+  <div class="main-content">
+    <div class="card" data-aos="zoom-in" style="width: 30rem; height: 15rem;">
+      <a href="#" id="car"><img src="asset/art5.jpg  " class="card-img-top" alt="..."></a>
+    </div>
+    <div class="card" data-aos="zoom-in" style="width: 30rem;">
+      <a href="#" id="car"><img src="asset/art6.jpg  " class="card-img-top" alt="..." style="max-height: 256px;"></a>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="card" data-aos="zoom-in" style="width: 30rem; max-height: 1rem;">
+      <a href="#" id="car"><img src="asset/art7.jpg  " class="card-img-top" alt="..."></a>
+    </div>
+    <div class="card" data-aos="zoom-in" style="width: 30rem;">
+      <a href="#" id="car"><img src="asset/art8.jpg  " class="card-img-top" alt="..." style="max-height: 322px;"></a>
+    </div>
+    </div>
+    <div class="btn-mre">
+    <a type="button" href="library.html" class="btn btn-dark btn-gg">More</a>
+    </div>
+  </div>
+  
+  <!-- Third jumbotron -->
+
+  <div class="jumbotron jumbotron-fluid w3-black">
+    <div class="container">
+      <h1 class="display-4">Street Graffiti ART</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+  </div>
+
+  <!-- Second content -->
+
+  <div style="background-image: url(asset/assetbg/bggra.jpg);">
+    <div class="main-content">
+      <div class="card" data-aos="zoom-in" style="width: 30rem; height: 15rem;">
+        <a href="#" id="car"><img src="asset/art4.jpg  " class="card-img-top w3-round" alt="..."></a>
+      </div>
+      <div class="card" data-aos="zoom-in" style="width: 30rem;">
+        <a href="#" id="car"><img src="asset/art9.jpg  " class="card-img-top w3-round" alt="..."></a>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="card" data-aos="zoom-in" style="width: 30rem; max-height: 1rem;">
+        <a href="#" id="car"><img src="asset/art10.jpg  " class="card-img-top w3-round" alt="..."></a>
+      </div>
+      <div class="card" data-aos="zoom-in" style="width: 30rem;">
+        <a href="#" id="car"><img src="asset/art11.jpg  " class="card-img-top w3-round" alt="..." style="max-height: 299px;"></a>
+      </div>
+      </div>
+      <div class="btn-mre">
+      <a type="button" href="library.html" class="btn btn-dark btn-gg">More</a>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <footer class="w3-center w3-black w3-padding-64">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </footer>
+    </div>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    });
+  </script>
+</body>
+</html>
